@@ -7,9 +7,8 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
-        "guzzlehttp/psr7": " ^2.0",
         "http-interop/http-factory-guzzle": "^1.2",
-        "laravel/framework": "^9.19",
+        "laravel/framework": "^9.0",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "nikitanp/alfacrm-api-php": "^1.0",

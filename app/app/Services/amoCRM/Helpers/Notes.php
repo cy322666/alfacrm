@@ -20,4 +20,13 @@ abstract class Notes
 
         return $note;
     }
+
+    public static function addOne($model, $text)
+    {
+        $note = $model->createNote($type = 4);
+        $note->text = $text;
+        $note->save();
+
+        return $note;
+    }
 }

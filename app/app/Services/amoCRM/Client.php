@@ -6,6 +6,11 @@ use Ufee\Amo\Oauthapi;
 
 class Client
 {
+    const STATUS_ID_CAME = 33238642;
+    const STATUS_ID_OMISSION = 33238639;
+
+    const TARIFF_PIPELINE_ID = 3300124;
+
     public EloquentStorage $storage;
     public Oauthapi $service;
 

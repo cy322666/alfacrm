@@ -2,11 +2,15 @@
 
 namespace App\Services\amoCRM\Helpers;
 
-use App\Models\Api\Viewer;
 use App\Services\amoCRM\Client;
 
 abstract class Contacts extends Client
 {
+    public static function clearPhone(?string $phone): string|null
+    {
+        return '+'.(int)preg_replace(['/[^0-9]/', '/,,+/'], [''], $phone) ?? null;
+    }
+
     public static function search($arrayFields, $client)
     {
         $contacts = null;

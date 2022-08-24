@@ -8,7 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/app/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/fakerphp/faker" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/monolog/monolog" />
@@ -105,14 +104,11 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/laravel/tinker" />
-      <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/laravel/sanctum" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/webmozart/assert" />
-      <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/laravel/serializable-closure" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpunit/phpunit" />
-      <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/phpoption/phpoption" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/psy/psysh" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/brick/math" />

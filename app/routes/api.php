@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\amoController;
+use App\Http\Controllers\AlfaController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,4 +21,21 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('amocrm/recorded', [\App\Http\Controllers\amoController::class, 'recorded']);
+Route::prefix('amocrm')->group(function () {
+
+    Route::post('recorded', [amoController::class, 'recorded']);
+
+
+});
+
+Route::prefix('alfacrm')->group(function () {
+
+    Route::post('pay', [AlfaController::class, 'pay']);
+
+    Route::post('repeated', [AlfaController::class, 'repeated']);
+
+    Route::post('archive', [AlfaController::class, 'archive']);
+
+
+});
+

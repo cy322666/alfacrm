@@ -25,11 +25,6 @@ class AppServiceProvider extends ServiceProvider
                 'redirect_uri'  => env('AMO_REDIRECT_URI'),
             ], Account::query()->first()));
         });
-
-        $this->app->bind(\App\Services\AlfaCRM\Client::class, function ($app) {
-
-            return (new \App\Services\AlfaCRM\Client())->init();
-        });
     }
 
     /**
